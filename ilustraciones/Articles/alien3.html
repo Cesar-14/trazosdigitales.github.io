@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        body {
+            padding-top: 20px;
+            padding-left: 60px;
+            padding-right: 60px;
+        }
+        /* Navegación */
+        .volver i {
+            margin-top: 40px;
+            margin-left: 60px;
+            position: absolute;
+            color: black;
+            font-size: 20px;
+        }
+        hr {
+            background-color: black;
+        }
+
+        /* Main */
+        .gallery {
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 0;
+        }
+        .gallery img {
+            display: block;
+            width: auto;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+        .desc {
+            margin-top: 20px;
+        }
+        .title {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        /* Description */
+        .zona-desc {
+            margin-left: 60px;
+            margin-right: 60px;
+        }
+        .process {
+            display: inline-block;
+            margin-top: 20px;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        .process h4 {
+            position: relative;
+        }
+        .process-img {
+            width: auto;
+            height: 300px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+        .desc {
+            display: inline-block;
+            margin-left: 80px;
+            position: absolute;
+            text-align: left;
+        }
+        .desc-PR {
+            margin-bottom: 20px;
+            width: 350px;
+        }
+        .desc-pregunta {
+            margin-bottom: 7px;
+        }
+        .desc-respuesta {
+            font-size: 14px;
+        }
+
+        /* Footer */
+        footer {
+            margin: 20px;
+            text-align: center;
+            color: rgb(164, 164, 164);
+            font-size: 12px;
+        }
+        .links a {
+            margin: 0 8px;
+        }
+        .links a i {
+            font-size: 25px;
+            color: rgb(164, 164, 164);
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+
+
+<body>
+    <header>
+        <a href="/index.html" class="volver">
+            <i class="fas fa-arrow-left"></i>
+        </a>
+    </header>
+
+    <main>
+        <!-- Principal Image -->
+        <section class="gallery">
+                <img src="https://1.bp.blogspot.com/-q6ObZVxNCV0/YVEUhU6pj-I/AAAAAAAAAMI/8gJQ5xaVy9Ecz6lRTtjbZPpj5b72L46FQCLcBGAsYHQ/w640-h320/ALien%2B3%2B%25284%2529%2B%2528copia%2529%2B2.JPG" 
+                alt="Alien3">
+        </section>
+        <h2 class="title">Alien 3</h2>
+        <hr>
+
+
+        <!-- Description -->
+        <div class="zona-desc">
+            <article class="process">
+                <h4>Proceso:</h4>
+                <img src="https://1.bp.blogspot.com/-a-fqV2VZIRE/YVD4wo0_mpI/AAAAAAAAALQ/t4bcoXZTNTgXokTqs4wcgMNxtw2b2qxdACLcBGAsYHQ/w400-h400/9A07500A-BB10-4C03-A15A-DBDCE6D82DC7.JPG" 
+                class="process-img"
+                alt="Proceso">
+            </article>
+    
+            <article class="desc">
+                <div class="desc-PR">
+                    <h4 class="desc-pregunta">Fecha de creación:</h4>
+                    <p class="desc-respuesta">02/01/21</p>
+                </div>
+                <div class="desc-PR">
+                    <h4 class="desc-pregunta">Inspirado en:</h4>
+                    <p class="desc-respuesta">Escena de pelicula "Alien 3"</p>
+                </div>
+                <div class="desc-PR">
+                    <h4 class="desc-pregunta">Hecho en:</h4>
+                    <p class="desc-respuesta">Adobe Photoshop</p>
+                </div>
+                <div class="desc-PR">
+                    <h4 class="desc-pregunta">Descripción:</h4>
+                    <p class="desc-respuesta">Un dibujo hecho digitalmente desde Adove Photoshop basado en una de las escenas mas icónicas de "Alien 3".</p>
+                </div>
+            </article>
+        </div>
+
+    </main>
+
+
+
+        <!-- Social Media -->
+        <footer>
+            <p><hr></p>
+            <div class="links">
+                <a href="#">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/bedshaped_13/?hl=es">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://github.com/Cesar-14?tab=repositories">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            <p>Derechos reservados 2021</p>
+        </footer>
+</body>
+</html>
